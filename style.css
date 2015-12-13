@@ -6,7 +6,7 @@ Decription  :
 Version     : 
 -----------------------------------------------*/
 nav .container-fluid{
-     height: 200px;
+     height: 150px;
     }    
 
 .website_logo img{
@@ -15,10 +15,16 @@ nav .container-fluid{
     border-radius: 50%;
 }
 
-header-content-inner {
-    margin-top: 30%;
+header .header-content h1{
+    color: #ffffff;
+    font-size: 60px;
+}
+
+header .header-content hr{
+    border-color: #ffffff;
 }
 
 header .header-content {
     font-weight: 600;
+    margin-top: 75px;
 }
