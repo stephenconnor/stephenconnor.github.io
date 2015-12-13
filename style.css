@@ -62,6 +62,11 @@ header .header-content {
     color: #9DC54B;
 }
 
+#services hr{
+    border-color: #9DC54B;
+    max-width: 100px;
+}
+
 .service-box img{
     height: 40%;
     width: 40%;
@@ -75,7 +80,17 @@ header .header-content {
     margin-top: 13%;
 }
 
+.client_portfoliio hr{
+    border-color: #9DC54B;
+    max-width: 100px;
+}
+
 .client_portfoliio {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#contact hr{
+    border-color: #9DC54B;
+    max-width: 100px;
 }
