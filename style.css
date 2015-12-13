@@ -5,6 +5,10 @@ Date        :
 Decription  : 
 Version     : 
 -----------------------------------------------*/
+nav .navbar{
+     height: 200px;
+    }    
+
 .website_logo img{
    /*height: 75%;
     width: 75%;*/
