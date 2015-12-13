@@ -7,7 +7,7 @@ Version     :
 -----------------------------------------------*/
 nav .container-fluid{
      height: 150px;
-    }    
+    }   
 
 .website_logo img{
    /*height: 75%;
@@ -15,16 +15,59 @@ nav .container-fluid{
     border-radius: 50%;
 }
 
+.navbar-default.affix {
+    background-color: #9DC54B !important;
+}
+
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+    color: #0F2739 !important;
+}
+
 header .header-content h1{
-    color: #ffffff;
     font-size: 60px;
+    text-shadow: 5px 5px #0F2739;
+    color: #9DC54B;
+}
+
+header .header-content h3{
+    text-shadow: 2px 2px #9DC54B;
+    color: #0F2739;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 header .header-content hr{
-    border-color: #ffffff;
+    border-color: #0F2739;
+;
 }
 
 header .header-content {
     font-weight: 600;
     margin-top: 75px;
+}
+
+.header-content .btn-primary {
+    border-color: #0F2739;
+    color: #fff;
+    background-color: #0F2739;
+    text-shadow: 0px 0px !important;
+}
+
+.bg-primary {
+    color: #9DC54B;
+    background-color: #0F2739 !important;
+}
+
+.bg-primary .text-faded{
+    color: #9DC54B;
+}
+
+.service-box img{
+    height: 40%;
+    width: 40%;
+}
+
+.client_portfoliio {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
