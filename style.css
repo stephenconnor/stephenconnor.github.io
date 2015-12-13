@@ -1,0 +1,63 @@
+/*---------------------------------------------
+Program     : ConDev WebApp
+Written By  : Stephen Connor    
+Date        :
+Decription  : CSS Style Sheet
+Version     : 
+-----------------------------------------------*/
+.navbar-default {
+    float: right;   
+    background-color: #9DC54B solid !important;
+    padding: 10px;
+}
+
+.lg_head_logo img{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.sm_head_logo img{
+        border-radius: 50%;
+    }
+
+@media only screen and (max-width: 500px) {
+    .lg_head_logo img{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1920px) {
+    .sm_head_logo img{
+        display: none;
+    }
+}
+
+.nav > li > a {
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #0F2739;
+    }
+
+.nav a:focus, a:hover{
+    background-color: #0F2739;
+}
+
+.bannerImg {
+    background-image: url(assets/motherboard_background_opac.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    border-top: 30%;
+    float: right; 
+    height: 500px;
+    padding-top: 20%;
+    font-size: 30px;
+    color: #0F2739;
+    font-weight: 600;
+    position: absolute;
+}
+
+.bannerImg_text {
+    background-color: transparent;
+}
