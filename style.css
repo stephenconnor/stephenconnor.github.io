@@ -10,3 +10,11 @@ Version     :
     width: 75%;*/
     border-radius: 50%;
 }
+
+header-content-inner {
+    margin-top: 30%;
+}
+
+header .header-content {
+    font-weight: 600;
+}
