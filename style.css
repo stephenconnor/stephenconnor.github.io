@@ -5,7 +5,8 @@ Date        :
 Decription  : 
 Version     : 
 -----------------------------------------------*/
-/*.website_logo img{
-    height: 75%;
-    width: 75%
-}*/
+.website_logo img{
+   /*height: 75%;
+    width: 75%;*/
+    border-radius: 50%;
+}
