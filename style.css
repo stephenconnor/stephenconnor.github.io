@@ -67,8 +67,12 @@ header .header-content {
     width: 40%;
 }
 
-.serviceBox_WebSup {
+.serviceBox_WebDev {
     margin-top: 14%;
+}
+
+.serviceBox_WebSup  p{
+    margin-top: 13%;
 }
 
 .client_portfoliio {
