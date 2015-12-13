@@ -5,7 +5,7 @@ Date        :
 Decription  : 
 Version     : 
 -----------------------------------------------*/
-nav .navbar{
+nav .container-fluid{
      height: 200px;
     }    
 
