@@ -49,7 +49,7 @@ header .header-content h3{
 
 header .header-content hr{
     border-color: #0F2739;
-;
+    border-width: 4px;
 }
 
 header .header-content {
@@ -139,3 +139,17 @@ hr_packages_descript {
     max-width: 100px;
 }
 
+#contact {
+    padding-bottom: 50px;
+}
+
+.panel-footer {
+    background-color: #0F2739;
+    height: 75px;
+    position: relative;
+}
+
+.footerTxtBottom {
+    float: right;
+    margin-top: 40px;
+}
