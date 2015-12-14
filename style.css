@@ -6,12 +6,10 @@ Decription  :
 Version     : 
 -----------------------------------------------*/
 nav .container-fluid{
-     height: 150px;
+     height: 120px;
     }   
 
 .website_logo img{
-   /*height: 75%;
-    width: 75%;*/
     border-radius: 50%;
 }
 
@@ -90,7 +88,37 @@ header .header-content {
     margin-bottom: 20px;
 }
 
+#about hr{
+    border-color: #9DC54B;
+    max-width: 100px;
+}
+
+hr_packages_descript {
+    border-color: #9DC54B;
+    max-width: 100px;
+}
+
+.packages {
+    color: #9DC54B !important;
+    background-color: #0F2739 !important;
+}
+
+#packages hr{
+    border-color: #9DC54B;
+    max-width: 100px;
+}
+
+.collapse_panel_green {
+    color: #0F2739;
+    background-color: #9DC54B !important;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 #contact hr{
     border-color: #9DC54B;
     max-width: 100px;
 }
+
