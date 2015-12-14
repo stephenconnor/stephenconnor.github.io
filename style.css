@@ -21,8 +21,21 @@ nav .container-fluid{
     color: #0F2739 !important;
 }
 
+@media only screen 
+    and (max-width : 770px){ 
+        #mainNav {
+            background-color: #9DC54B;
+        }
+       .navbar-collapse ul {
+            margin-top: 10%;
+            background-color: #9DC54B;
+            width: 25%;
+            opacity: 0.75;
+        }
+}
+
 header .header-content h1{
-    font-size: 60px;
+    font-size: 55px !important;
     text-shadow: 5px 5px #0F2739;
     color: #9DC54B;
 }
@@ -41,7 +54,7 @@ header .header-content hr{
 
 header .header-content {
     font-weight: 600;
-    margin-top: 75px;
+    margin-top: 60px;
 }
 
 .header-content .btn-primary {
@@ -115,6 +128,10 @@ hr_packages_descript {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.supportLvl1Btn {
+    margin-top: 7.5%;
 }
 
 #contact hr{

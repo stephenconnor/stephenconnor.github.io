@@ -175,7 +175,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 500px;
     text-align: center;
     color: #fff;
     background-image: url(../img/motherboard_background_opac.jpg);
