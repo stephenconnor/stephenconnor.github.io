@@ -88,7 +88,7 @@ Version     :
             <div class="header-content-inner">
                 <h1>ConDev<br>
                 the Webiste Development Specialists</h1>
-                <hr>
+                <hr style="width:100px;">
                 <ul>
                     <li><h3>Website Design and Development</h3></li>
                     <li><h3>Website Technical Support</h3></li>
@@ -274,39 +274,49 @@ Version     :
                   <h2 class="section-heading" >Service Packages</h2>
                     <hr class="light">
                     <br>
-                <div class="col-sm-4 website_packages button-group">
-                    <h3 class="section-heading"  > Website Development Packages</h3>
-                    <p><a class="btn btn-default btn-md" role="button" data-toggle="collapse" data-parent="#packages" href="#siteLevel1" aria-expanded="false" aria-controls="collapseExample">Wesbite Package Level 1 </a></p>
+                <div class="col-sm-4 website_packages button-group accordion" id="myAccordion">
+                        <h3 class="section-heading"  > Website Development Packages</h3>
+                    <div class="panel">
+                    <p><a class="btn btn-default btn-md" role="button" data-toggle="collapse" data-parent="#myAccordion" href="#siteLevel1" aria-expanded="false" aria-controls="collapseExample">Wesbite Package Level 1 </a></p>
                     <div class="collapse collapse_panel_green" id="siteLevel1">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                     </div>
+                    </div>
                     
-                    <p><button class="btn btn-default btn-md" type="button" data-toggle="collapse" data-parent="#packages" data-target="#siteLevel2" aria-expanded="false" aria-controls="collapseExample">Wesbite Package Level 2 
+                    <div class="panel">
+                        <p><button class="btn btn-default btn-md" type="button" data-toggle="collapse" data-parent="#myAccordion" data-target="#siteLevel2" aria-expanded="false" aria-controls="collapseExample">Wesbite Package Level 2 
                     </button></p>
                     <div class="collapse collapse_panel_green" id="siteLevel2">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                     </div>
+                    </div>
                     
-                    <p><button class="btn btn-default btn-md" type="button" data-toggle="collapse" data-parent="#packages" data-target="#siteLevel3" aria-expanded="false" aria-controls="collapseExample">Wesbite Package Level 3 
+                    <div class="panel">
+                        <p><button class="btn btn-default btn-md" type="button" data-toggle="collapse" data-parent="#myAccordion" data-target="#siteLevel3" aria-expanded="false" aria-controls="collapseExample">Wesbite Package Level 3 
                     </button></p>
                     <div class="collapse collapse_panel_green" id="siteLevel3">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                     </div>
-                </div>
-                  
-                <div class="col-sm-4 support_packages">
-                    <h3 class="section-heading"> Website Support Packages</h3>
-                    <p><a class="btn btn-default btn-md supportLvl1Btn" role="button" data-toggle="collapse" data-parent="#packages" href="#supportLevel1" aria-expanded="false" aria-controls="collapseExample">Wesbite Support Level 1 </a></p>
-                    <div class="collapse collapse_panel_green" id="supportLevel1">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                     </div>
                 </div>
                   
-                <div class="col-sm-4 training_packages">
-                    <h3 class="section-heading"> Website CMS Training Packages</h3>
-                    <p><a class="btn btn-default btn-md cmsTrainingBtn" role="button" data-toggle="collapse" data-parent="#packages" href="#trainingLevel1" aria-expanded="false" aria-controls="collapseExample">CMS Training </a></p>
+                <div class="col-sm-4 support_packages accordion" id="myAccordion">
+                    <div class="panel">
+                        <h3 class="section-heading"> Website Support Packages</h3>
+                    <p><a class="btn btn-default btn-md supportLvl1Btn" role="button" data-toggle="collapse" data-parent="#myAccordion" href="#supportLevel1" aria-expanded="false" aria-controls="collapseExample">Wesbite Support Level 1 </a></p>
+                    <div class="collapse collapse_panel_green" id="supportLevel1">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                    </div>
+                    </div>
+                </div>
+                  
+                <div class="col-sm-4 training_packages accordion" id="myAccordion">
+                    <div class="panel">
+                        <h3 class="section-heading"> Website CMS Training Packages</h3>
+                    <p><a class="btn btn-default btn-md cmsTrainingBtn" role="button" data-toggle="collapse" data-parent="#myAccordion" href="#trainingLevel1" aria-expanded="false" aria-controls="collapseExample">CMS Training </a></p>
                     <div class="collapse collapse_panel_green" id="trainingLevel1">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                    </div>
                     </div>
                 </div>
             </div>

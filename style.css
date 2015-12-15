@@ -47,9 +47,10 @@ header .header-content h3{
     font-size: 20px;
 }
 
-header .header-content hr{
+.header-content hr{
     border-color: #0F2739;
     border-width: 4px;
+    max-width: 100px !important;
 }
 
 header .header-content {
@@ -62,6 +63,11 @@ header .header-content {
     color: #fff;
     background-color: #0F2739;
     text-shadow: 0px 0px !important;
+    margin-top: 20px;
+}
+
+.header-content .btn-primary:hover {
+    background: #9DC54B;
 }
 
 .bg-primary {
@@ -128,6 +134,18 @@ hr_packages_descript {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.website_packages .panel {
+    background-color: transparent;
+}
+
+.support_packages .panel {
+    background-color: transparent;
+}
+
+.training_packages .panel {
+    background-color: transparent;
 }
 
 #contact hr{
