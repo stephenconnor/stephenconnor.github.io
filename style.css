@@ -144,6 +144,10 @@ hr_packages_descript {
     background-color: transparent;
 }
 
+.supportLvl1Btn {
+    margin-top: 2%;
+}
+
 .training_packages .panel {
     background-color: transparent;
 }
