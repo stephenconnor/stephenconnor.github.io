@@ -107,8 +107,8 @@ header .header-content {
     margin-bottom: 20px;
 }
 
-#about hr{
-    border-color: #9DC54B;
+.conDevAllNeeds hr{
+    border-color: #9DC54B !important;
     max-width: 100px;
 }
 
