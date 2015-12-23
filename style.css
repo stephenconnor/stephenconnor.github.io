@@ -9,9 +9,9 @@ nav .container-fluid{
      height: 120px;
     }   
 
-.website_logo img{
+/*.website_logo img{
     border-radius: 50%;
-}
+}*/
 
 .navbar-default.affix {
     background-color: #9DC54B !important;
