@@ -35,26 +35,31 @@ nav .container-fluid{
 }
 
 header .header-content h1{
-    font-size: 55px !important;
-    text-shadow: 5px 5px #0F2739;
-    color: #9DC54B;
+    font-size: 50px !important;
+    /*text-shadow: 5px 5px #0F2739;
+    color: #9DC54B;*/
 }
 
 header .header-content h3{
-    text-shadow: 2px 2px #9DC54B;
+    /*text-shadow: 2px 2px #9DC54B;
     color: #0F2739;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 20px;*/
+}
+
+header .header-content li{
+    list-style-type: none;
 }
 
 .header-content hr{
-    border-color: #0F2739;
+    /*border-color: #0F2739;*/
+    border-color: #9DC54B;
     border-width: 4px;
     max-width: 100px !important;
 }
 
 header .header-content {
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 60px;
 }
 
