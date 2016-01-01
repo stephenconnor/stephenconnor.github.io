@@ -52,10 +52,10 @@ header .header-content li{
 }
 
 .header-content hr{
-    /*border-color: #0F2739;*/
-    border-color: #9DC54B;
+    border-color: #0F2739;
+    /*border-color: #9DC54B;*/
     border-width: 4px;
-    max-width: 100px !important;
+    max-width: 150px !important;
 }
 
 header .header-content {
