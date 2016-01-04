@@ -111,11 +111,11 @@ header .header-content {
 }
 
 .serviceBox_WebDev {
-    margin-top: 14%;
+    margin-top: 13%;
 }
 
 .serviceBox_WebSup  p{
-    margin-top: 13%;
+    /*margin-top: 13%;*/
 }
 
 .client_portfoliio hr{
