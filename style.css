@@ -17,8 +17,24 @@ nav .container-fluid{
     background-color: #9DC54B !important;
 }
 
+navbar-brand > img {
+    border-radius: 2px;
+    opacity: 0.95;
+}
+
 .navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+    /*color: #0F2739 !important;*/
+    color: #ffffff;
+    font-size: 22px !important;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
     color: #0F2739 !important;
+}
+
+.navbar-right {
+    margin-top: 30px;
 }
 
 @media only screen 
@@ -112,6 +128,15 @@ header .header-content {
     margin-bottom: 20px;
 }
 
+.conDevAllNeeds {
+    color: #ffffff;
+}
+
+.conDevAllNeeds .btn{
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .conDevAllNeeds hr{
     border-color: #9DC54B !important;
     max-width: 100px;
@@ -123,7 +148,8 @@ hr_packages_descript {
 }
 
 .packages {
-    color: #9DC54B !important;
+    /*color: #9DC54B !important;*/
+    color: #ffffff;
     background-color: #0F2739 !important;
 }
 
@@ -133,7 +159,8 @@ hr_packages_descript {
 }
 
 .collapse_panel_green {
-    color: #0F2739;
+    /*color: #0F2739;*/
+    color: #ffffff;
     background-color: #9DC54B !important;
     font-weight: 600;
     border-radius: 10px;
