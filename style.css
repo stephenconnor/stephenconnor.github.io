@@ -48,6 +48,35 @@ navbar-brand > img {
             width: 25%;
             opacity: 0.75;
         }
+        
+        .support_packages .btn{
+            margin-top: 0;
+        }
+        
+}
+
+@media (min-width: 766px) and (max-width: 800px) {
+    .navbar-default.affix .nav > li > a {
+        font-size: 15px !important;
+        margin-right: -10px;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .navbar-default.affix .nav > li > a {
+        font-size: 18px !important;
+        margin-right: -8px;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .navbar-default.affix .nav > li > a {
+        font-size: 20px !important;
+        margin-right: -8px;
+    }
+
 }
 
 header .header-content h1{
