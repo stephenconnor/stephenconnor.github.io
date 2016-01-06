@@ -101,7 +101,7 @@ ul.thumbs li.content {
 	margin-bottom: 40px;
 	background: none;
 	float: left;
-    height: 250px;
+    height: auto;
 	position: relative;
 	padding: 45px 0 45px;
 }
