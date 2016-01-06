@@ -222,9 +222,23 @@ a.button {
 .thumbs {
     display: block;
 }
-/*.nrfThumb li{
-    background-image: url(../img/nrf_abovefold.jpg);
-}*/
+
+.nrfDesc h1{
+    margin-left: 10px;
+}
+
+.nrfDesc p{
+    margin-left: 10px;
+}
+
+.adVendDesc h1{
+    margin-left: 10px;
+}
+
+.adVendDesc p{
+    margin-left: 10px;
+}
+
 /*--- Portfolio end --*/
 
 
