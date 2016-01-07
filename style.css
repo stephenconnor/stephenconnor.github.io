@@ -42,12 +42,6 @@ navbar-brand > img {
         #mainNav {
             background-color: #9DC54B;
         }
-       .navbar-collapse ul {
-            margin-top: 10%;
-            background-color: #9DC54B;
-            width: 25%;
-            opacity: 0.75;
-        }
         
         .support_packages .btn{
             margin-top: 0;
