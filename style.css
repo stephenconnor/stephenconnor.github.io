@@ -298,10 +298,10 @@ hr_packages_descript {
     margin-top: 40px;
 }
 
-.footerTxtBottom a{
+.panel-footer a{
     color: #9DC54B !important;
 }
 
-.footerTxtBottom a:hover, a:focus {
+.panel-footer a:hover, a:focus {
     color: #9DC54B !important;
 }
