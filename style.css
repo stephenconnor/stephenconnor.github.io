@@ -301,3 +301,7 @@ hr_packages_descript {
 .footerTxtBottom a{
     color: #9DC54B;
 }
+
+.footerTxtBottom a:hover, a:focus {
+    color: #9DC54B;
+}
