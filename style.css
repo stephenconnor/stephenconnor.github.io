@@ -156,6 +156,10 @@ header .header-content {
     /*margin-top: 13%;*/
 }
 
+.webDev a:hover, a:focus {
+    color: #9DC54B !important;
+}
+
 .client_portfoliio hr{
     border-color: #9DC54B;
     max-width: 150px;
