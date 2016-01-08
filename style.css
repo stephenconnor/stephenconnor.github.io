@@ -297,3 +297,7 @@ hr_packages_descript {
     float: right;
     margin-top: 40px;
 }
+
+.footerTxtBottom a{
+    color: #9DC54B;
+}
