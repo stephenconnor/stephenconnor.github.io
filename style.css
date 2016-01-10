@@ -241,6 +241,10 @@ a.button {
     margin-left: 10px;
 }
 
+.client_portfoliio ul.thumbs li.content {
+    padding: 30px 10px 30px 10px;
+}
+
 /*--- Portfolio end --*/
 
 
