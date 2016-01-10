@@ -106,8 +106,7 @@ header .header-content li{
 }
 
 .header-content hr{
-    /*border-color: #0F2739;*/
-    border-color: #9DC54B;
+    border-color: #9DC54B !important;
     border-width: 4px;
     max-width: 150px !important;
 }
