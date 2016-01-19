@@ -38,6 +38,7 @@ navbar-brand > img {
 }
 
 .navbar-collapse.in {
+    border-color: #9DC54B !important;
     background-color: #9DC54B;
     width: 50%;
     margin-top: 8%;
