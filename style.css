@@ -305,15 +305,20 @@ hr_packages_descript {
     padding-bottom: 50px;
 }
 
+
+/*-------------------- Footer ------------------------*/
+
 .panel-footer {
     background-color: #0F2739;
-    height: 85px;
+    height: 155px;
     position: relative;
 }
 
 .footerTxtBottom {
     float: right;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-left: 20px !important;
+    color: #25618d;
 }
 
 .panel-footer a{
@@ -323,3 +328,63 @@ hr_packages_descript {
 .panel-footer a:hover, a:focus {
     color: #9DC54B !important;
 }
+
+.footerCompName h5{
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-footer .social {
+    float:right;
+}
+
+.social-footer {
+    background-color: #0F2739;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.social-footer .fa {
+    background: #9DC54B !important;
+    color: #FFFFFF !important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 35px;
+    padding-left: 9px;
+    padding-top: 6px;
+}
+
+.social-profile {
+    font-size: 24px;
+}
+
+.addCtcFoot {
+    height: 50px !important;
+/*    background-color: #7598B4 !important;*/
+    color: #fff !important;
+    padding-top: 15px !important;
+    font-size: 14px; !important
+    width: 100% !important;
+}
+
+.footer-widget-area{
+    background-color: #9DC54B; 
+}
+ 
+
+.footerAdd {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footerCtcNos {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.addCtcFoot a{
+    color: #fff;
+}
+
+/*-------------------- Footer ------------------------*/
