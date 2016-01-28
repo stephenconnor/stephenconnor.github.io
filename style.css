@@ -308,24 +308,24 @@ hr_packages_descript {
 
 /*-------------------- Footer ------------------------*/
 
-.panel-footer {
-    background-color: #0F2739;
-    height: 155px;
-    position: relative;
-}
-
 .footerTxtBottom {
-    float: right;
-    margin-top: 10px;
-    margin-left: 20px !important;
+    padding-left: %;
     color: #25618d;
+    background-color: #0F2739 !important;
+    padding-top: 10px;
 }
 
-.panel-footer a{
+.designBy {
+    background-color: #0F2739 !important;
+    width: 100%;
+    text-align: right;
+}
+
+.addCtcFoot a{
     color: #9DC54B !important;
 }
 
-.panel-footer a:hover, a:focus {
+.addCtcFoot a:hover, a:focus {
     color: #9DC54B !important;
 }
 
@@ -342,6 +342,8 @@ hr_packages_descript {
     background-color: #0F2739;
     padding-bottom: 5px;
     padding-top: 10px;
+/*  padding-left: 0px;
+    padding-right: 0px;*/
 }
 
 .social-footer .fa {
@@ -360,8 +362,7 @@ hr_packages_descript {
 }
 
 .addCtcFoot {
-    height: 50px !important;
-/*    background-color: #7598B4 !important;*/
+    background-color: #0F2739 !important;
     color: #fff !important;
     padding-top: 15px !important;
     font-size: 14px; !important
@@ -387,4 +388,16 @@ hr_packages_descript {
     color: #fff;
 }
 
+@media (min-width: 0px) and (max-width: 800px){
+    .addCtcFootLg {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1600px){
+ .addCtcFootSm {
+        display: none;
+        }
+    }
+}
 /*-------------------- Footer ------------------------*/
