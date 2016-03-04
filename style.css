@@ -482,3 +482,15 @@ a.socialIcon:hover, .socialHoverClass {
  background-color: #9DC54B;   
 }
 /*-------------------- Footer ------------------------*/
+
+/*-------------------- Cookie Policy Page ------------------------*/
+
+.cookiePolicy   .navbar-default {
+    background-color: #9DC54B;
+}
+
+.cookiePolicy .pageTitle{
+   text-align: center;
+}
+/*-------------------- Footer ------------------------*/
+
