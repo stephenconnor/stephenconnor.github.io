@@ -48,6 +48,18 @@ navbar-brand > img {
     margin-top: 8%;
 }
 
+@font-face {
+	    font-family: magistralc; 
+	    src: url(../fonts/magistralc-webfont.ttf); 
+	    font-weight: normal; 
+	}
+
+.header-content-inner h1{
+    font-family: 'magistralc', Arial, sans-serif;
+	font-weight: 900;
+    font-size: 60px !important;
+}
+
 @media only screen 
     and (max-width : 770px){ 
         #mainNav {
@@ -99,11 +111,11 @@ navbar-brand > img {
 
 }
 
-header .header-content h1{
+/*header .header-content h1{
     font-size: 50px !important;
     /*text-shadow: 5px 5px #0F2739;
     color: #9DC54B;*/
-}
+}*/
 
 header .header-content h3{
     /*text-shadow: 2px 2px #9DC54B;
