@@ -508,5 +508,20 @@ a.socialIcon:hover, .socialHoverClass {
 .cookiePolicy .pageTitle{
    text-align: center;
 }
+
+.cookiePolicy #portfolio{
+   margin-top: 130px;
+}
+
+.textColourPanelBackground {
+/*    background: #F4F3F3;*/
+/*    background: #e8e7e7;*/    
+    background: #0F2739;
+    color: #ffffff;
+    border: 10px #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
 /*-------------------- Footer ------------------------*/
 
