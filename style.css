@@ -270,6 +270,13 @@ a.button {
 /*--- Portfolio end --*/
 
 
+#webDevPack, #webSup, #cmsTrain h1{
+    font-size: 24px !important;
+    margin-bottom: 10px;
+}
+
+
+
 hr_packages_descript {
     border-color: #9DC54B;
     max-width: 100px;
