@@ -310,6 +310,10 @@ hr_packages_descript {
     background-color: transparent;
 }
 
+#supportLevel1 {
+    font-size: 16px;
+}
+
 .support_packages .panel {
     background-color: transparent;
 }
