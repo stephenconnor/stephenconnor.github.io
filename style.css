@@ -339,6 +339,14 @@ hr_packages_descript {
     padding-bottom: 50px;
 }
 
+.twitterPanel {
+    max-height: 350px !important;
+}
+
+.fbPanel {
+    background-color: #292F33;
+    border-radius: 5px;
+}
 
 /*-------------------- Footer ------------------------*/
 
