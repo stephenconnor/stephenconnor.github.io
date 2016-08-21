@@ -160,6 +160,10 @@ header .header-content {
     color: #9DC54B;
 }
 
+#services {
+    padding-top: 50px;
+}
+
 #services hr{
     border-color: #9DC54B;
     max-width: 150px;
@@ -194,6 +198,10 @@ header .header-content {
 .client_portfoliio {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#about {
+    padding-top: 50px;
 }
 
 .conDevAllNeeds {
@@ -293,6 +301,7 @@ a.button {
     /*color: #9DC54B !important;*/
     color: #ffffff;
     background-color: #0F2739 !important;
+    padding-top: 50px;
 }
 
 #packages hr{
@@ -330,13 +339,28 @@ a.button {
     background-color: transparent;
 }
 
+#contact {
+    padding-bottom: 50px;
+}
+
 #contact hr{
     border-color: #9DC54B;
     max-width: 150px;
 }
 
 #contact {
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.socialMedia {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.socialMedia hr{
+    border-color: #9DC54B;
+    max-width: 150px;
 }
 
 .twitterPanel {
@@ -391,24 +415,7 @@ a.button {
     background-color: #0F2739;
     padding-bottom: 5px;
     padding-top: 10px;
-/*  padding-left: 0px;
-    padding-right: 0px;*/
 }
-
-/*.social-footer .fa {
-    background: #9DC54B !important;
-    color: #FFFFFF !important;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin-right: 35px;
-    padding-left: 9px;
-    padding-top: 6px;
-}
-
-.social-profile {
-    font-size: 24px;
-}*/
 
 .addCtcFoot {
     background-color: #0F2739 !important;
@@ -422,7 +429,6 @@ a.button {
     background-color: #9DC54B; 
 }
  
-
 .footerAdd {
     color: #ffffff;
     font-size: 14px;
