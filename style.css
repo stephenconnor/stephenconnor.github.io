@@ -371,10 +371,12 @@ a.button {
 .fb-page iframe{
     border: 15px solid #292F33;
     border-radius: 5px;
+    width: 100% !important;
+    background-color: #292F33;
 }
 
-.fb-page iframe {
-   width: 100% !important;
+.fb-page ._2p3a{
+    width: 100% !important;
 }
 
 
