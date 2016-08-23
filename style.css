@@ -311,6 +311,7 @@ a.button {
 #packages hr{
     border-color: #9DC54B;
     max-width: 150px;
+    margin-bottom: 10px;
 }
 
 .collapse_panel_green {
