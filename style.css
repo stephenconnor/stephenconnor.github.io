@@ -591,13 +591,13 @@ a.socialIcon:hover, .socialHoverClass {
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: @screen-xs-min) and (max-width: @screen-sm-max) {
     .socialMedia .sect-heading-small{
         display: none;
     }
 }
 
-@media and (min-width: 300px) and (max-width: 599px) {
+@media (min-width: @screen-sm-min) and (max-width: @screen-lg-max) {
     .socialMedia .section-heading{
         display: none;
     }
