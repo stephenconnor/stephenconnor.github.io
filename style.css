@@ -365,7 +365,7 @@ a.button {
 }
 
 @media screen and (max-width: 600px) {
-    .socialMedia sect-heading-big{
+    .socialMedia .sect-heading-big{
         display: none !important;
     }
 }
