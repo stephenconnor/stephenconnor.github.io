@@ -151,6 +151,10 @@ header .header-content {
     background: #9DC54B;
 }
 
+.header-content .btn-primary:after {
+    color: #fff;
+}
+
 .bg-primary {
     color: #9DC54B;
     background-color: #0F2739 !important;
@@ -605,6 +609,10 @@ a.socialIcon:hover, .socialHoverClass {
 @media screen and (min-width: 300px) and (max-width: 500px) {
     .header-content .btn-primary {
     margin-top: -460px;
+    }
+    
+    .header-content hr{
+        display: none;
     }
 }
 
