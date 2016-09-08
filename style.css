@@ -606,19 +606,13 @@ a.socialIcon:hover, .socialHoverClass {
     }
 }
 
+/*
 @media screen and (min-width: 300px) and (max-width: 500px) {
     .header-content .btn-primary {
     margin-top: -460px;
     }
-    
-}
-
-/*
-@media (min-width: 600px) and (max-width: 200px) {
-    .socailMedia .sect-heading-small{
-        display: none;
-    }
 }
 */
+
 
 /* ------------------ media queries end ---------------------- */
