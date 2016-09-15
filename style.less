@@ -155,14 +155,6 @@ header{
     
 }
 
-//.header-content .btn-primary:hover {
-//    background: #9DC54B;
-//}
-
-//.header-content .btn-primary:after {
-//    color: #fff;
-//}
-
 .bg-primary{
     color: #9DC54B;
     background-color: @colorNavy !important;
@@ -179,6 +171,18 @@ header{
         .limeRule;  
     }
     
+    h3{
+        color: @colorNavy;
+    }
+    
+    h3:hover, h3:focus {
+        color: @colorLime !important;
+    }
+
+    a:hover, a:focus {
+            color: @colorLime !important;
+    }
+    
     .service-box img{
         height: 40%;
         width: 45%;
@@ -187,18 +191,14 @@ header{
     .serviceBox_WebDev {
         margin-top: 38px;
         }
+    
+    .WebDev img{
+        height: 110px !important;
+    }
 
     .serviceBox_WebSup  p{
         /*margin-top: 13%;*/
         }
-    
-    .webDev a:hover, a:focus {
-        color: @colorLime !important;
-        }
-
-    .webDev  a:hover::before {
-        color: @colorLime !important;
-    }
     
 }
 

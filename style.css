@@ -128,6 +128,17 @@ header .header-content .btn-primary:after {
   border-width: 4px;
   max-width: 150px !important;
 }
+#services h3 {
+  color: #0f2739;
+}
+#services h3:hover,
+#services h3:focus {
+  color: #9dc54b !important;
+}
+#services a:hover,
+#services a:focus {
+  color: #9dc54b !important;
+}
 #services .service-box img {
   height: 40%;
   width: 45%;
@@ -135,15 +146,11 @@ header .header-content .btn-primary:after {
 #services .serviceBox_WebDev {
   margin-top: 38px;
 }
+#services .WebDev img {
+  height: 110px !important;
+}
 #services .serviceBox_WebSup p {
   /*margin-top: 13%;*/
-}
-#services .webDev a:hover,
-#services a:focus {
-  color: #9dc54b !important;
-}
-#services .webDev a:hover::before {
-  color: #9dc54b !important;
 }
 .client_portfoliio {
   margin-top: 20px;
