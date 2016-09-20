@@ -11,6 +11,12 @@
   border-width: 4px;
   max-width: 150px !important;
 }
+.portfolioImg {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 8px solid #9dc54b;
+}
 .cc_container .cc_btn {
   background-color: #9dc54b !important;
 }
@@ -183,9 +189,6 @@ header .header-content .btn-primary:after {
   font-weight: 700;
 }
 /*--- Portfolio --*/
-#portfolio .thumbs {
-  display: block;
-}
 #portfolio .nrfDesc h1 {
   margin-left: 10px;
 }
@@ -201,8 +204,42 @@ header .header-content .btn-primary:after {
 #portfolio .adVend a {
   background-size: 645px !important;
 }
-#portfolio ul.thumbs li.content {
-  padding: 30px 10px 30px 10px;
+#portfolio .panel {
+  border: 0px !important;
+  text-align: center;
+}
+#portfolio .panel-heading {
+  display: inline-block;
+  text-align: center;
+  background-color: #ffffff;
+}
+#portfolio .panel-heading img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 8px solid #9dc54b;
+}
+#portfolio .fa {
+  font-size: 25px;
+  float: right;
+  margin-top: -50px;
+  margin-right: 30px;
+  color: #ffffff;
+  background-color: #9dc54b;
+  border-radius: 50%;
+  padding: 5px;
+}
+#portfolio .nrfDesc img {
+  width: 300px;
+  height: 300px;
+}
+#portfolio .adVendDesc img {
+  width: 300px;
+  height: 300px;
+}
+#portfolio .mcFinanDesc img {
+  width: 300px;
+  height: 300px;
 }
 /*--- Portfolio end --*/
 /*--- Packages --*/
