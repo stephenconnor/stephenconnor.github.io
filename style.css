@@ -285,6 +285,10 @@ header .header-content .btn-primary:after {
 .packages .training_packages .panel {
   background-color: transparent;
 }
+.packages i {
+  color: #9dc54b;
+  font-size: 16px;
+}
 /*--- Portfolio end --*/
 #contact {
   padding-top: 50px;
