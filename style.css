@@ -288,6 +288,10 @@ header .header-content .btn-primary:after {
 .packages i {
   color: #9dc54b;
   font-size: 16px;
+  font-weight: 700;
+}
+.packages li {
+  font-size: 16px;
 }
 /*--- Portfolio end --*/
 #contact {
