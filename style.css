@@ -17,6 +17,9 @@
   width: 250px;
   border: 8px solid #9dc54b;
 }
+.portfolioImgHov {
+  border: 8px solid #0f2739;
+}
 .cc_container .cc_btn {
   background-color: #9dc54b !important;
 }
@@ -218,6 +221,12 @@ header .header-content .btn-primary:after {
   height: 250px;
   width: 250px;
   border: 8px solid #9dc54b;
+}
+#portfolio .imgTilt img {
+  transition: all 0.5s ease;
+}
+#portfolio .imgTilt img:hover {
+  transform: rotate(10deg);
 }
 #portfolio .fa {
   font-size: 25px;
