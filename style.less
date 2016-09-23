@@ -166,16 +166,17 @@ header{
 }
 
 .bg-primary{
-    color: #9DC54B;
+    color: @colorLime;
     background-color: @colorNavy !important;
     
     .text-faded{
-        color: #9DC54B;
+        color: @colorLime;
     }
 }
 
 #services {
     padding-top: 50px;
+    padding-bottom: 50px !important;
 
     hr{
         .limeRule;  
@@ -216,12 +217,20 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     
+    .section-heading{
+        color: @color0;
+        padding-top: 30px;
+    }
+    
+    background-color: @colorNavy;
+    
     hr{
         .limeRule;
     }
     
     .btn-primary{
-        background-color: @colorNavy;
+        background-color: @colorLime;
+        height: 35px !important;
     }
     
     btn:hover {
@@ -229,26 +238,9 @@ header{
     }
 }
 
-#about {
-    padding-top: 50px;
-    
-    .conDevAllNeeds {
-        color: @color0;
-        
-        hr{
-            .limeRule;
-        }
-        
-        .btn{
-            font-size: 18px;
-            font-weight: 700;
-        }
-    }
-
-}
-
 
 #portfolio{
+    padding-bottom: 30px;
     
     .nrfDesc h1{
         margin-left: 10px;
@@ -273,12 +265,15 @@ header{
     .panel{
         border: 0px !important;
         text-align: center;
+        background-color: @colorNavy;
+        color: @color0;
     }
     
     .panel-heading {
         display: inline-block;
         text-align: center;
-        background-color: @color0;
+//        background-color: @color0;
+        background-color: @colorNavy;
     }
     
     .panel-heading img{
@@ -329,6 +324,33 @@ header{
 /*--- Portfolio end --*/
 
 
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px !important;
+    background-color: @color0 !important;
+    color: @colorNavy;
+    
+    .conDevAllNeeds {
+//        color: @color0;
+        color: @colorNavy;
+        
+        hr{
+            .limeRule;
+        }
+        
+        .btn{
+            font-size: 18px;
+            font-weight: 700;
+            background: @colorNavy;
+            color: @color0;    
+        }
+    }
+
+}
+
+
+
+
 /*--- Packages --*/
 
 .packages{
@@ -347,6 +369,10 @@ header{
 
     hr{
         .limeRule;
+    }
+    
+    .btn-md {
+        height: 35px;
     }
     
     .collapse_panel_green {
@@ -388,7 +414,9 @@ header{
         font-size: 16px;
     }
 }
-/*--- Portfolio end --*/ 
+
+/*--- packages end --*/ 
+
 
 #contact{
     padding-top: 50px;

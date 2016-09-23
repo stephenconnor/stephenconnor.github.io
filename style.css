@@ -123,14 +123,15 @@ header .header-content .btn-primary:after {
   background: #ffffff;
 }
 .bg-primary {
-  color: #9DC54B;
+  color: #9dc54b;
   background-color: #0f2739 !important;
 }
 .bg-primary .text-faded {
-  color: #9DC54B;
+  color: #9dc54b;
 }
 #services {
   padding-top: 50px;
+  padding-bottom: 50px !important;
 }
 #services hr {
   border-color: #9dc54b !important;
@@ -164,6 +165,11 @@ header .header-content .btn-primary:after {
 .client_portfoliio {
   margin-top: 20px;
   margin-bottom: 20px;
+  background-color: #0f2739;
+}
+.client_portfoliio .section-heading {
+  color: #ffffff;
+  padding-top: 30px;
 }
 .client_portfoliio hr {
   border-color: #9dc54b !important;
@@ -171,25 +177,14 @@ header .header-content .btn-primary:after {
   max-width: 150px !important;
 }
 .client_portfoliio .btn-primary {
-  background-color: #0f2739;
+  background-color: #9dc54b;
+  height: 35px !important;
 }
 .client_portfoliio btn:hover {
   background-color: #9dc54b;
 }
-#about {
-  padding-top: 50px;
-}
-#about .conDevAllNeeds {
-  color: #ffffff;
-}
-#about .conDevAllNeeds hr {
-  border-color: #9dc54b !important;
-  border-width: 4px;
-  max-width: 150px !important;
-}
-#about .conDevAllNeeds .btn {
-  font-size: 18px;
-  font-weight: 700;
+#portfolio {
+  padding-bottom: 30px;
 }
 #portfolio .nrfDesc h1 {
   margin-left: 10px;
@@ -209,11 +204,13 @@ header .header-content .btn-primary:after {
 #portfolio .panel {
   border: 0px !important;
   text-align: center;
+  background-color: #0f2739;
+  color: #ffffff;
 }
 #portfolio .panel-heading {
   display: inline-block;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #0f2739;
 }
 #portfolio .panel-heading img {
   border-radius: 50%;
@@ -258,6 +255,26 @@ header .header-content .btn-primary:after {
   height: 280px;
 }
 /*--- Portfolio end --*/
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px !important;
+  background-color: #ffffff !important;
+  color: #0f2739;
+}
+#about .conDevAllNeeds {
+  color: #0f2739;
+}
+#about .conDevAllNeeds hr {
+  border-color: #9dc54b !important;
+  border-width: 4px;
+  max-width: 150px !important;
+}
+#about .conDevAllNeeds .btn {
+  font-size: 18px;
+  font-weight: 700;
+  background: #0f2739;
+  color: #ffffff;
+}
 /*--- Packages --*/
 .packages {
   color: #ffffff;
@@ -277,6 +294,9 @@ header .header-content .btn-primary:after {
   border-color: #9dc54b !important;
   border-width: 4px;
   max-width: 150px !important;
+}
+.packages .btn-md {
+  height: 35px;
 }
 .packages .collapse_panel_green {
   color: #ffffff;
@@ -309,7 +329,7 @@ header .header-content .btn-primary:after {
 .packages li {
   font-size: 16px;
 }
-/*--- Portfolio end --*/
+/*--- packages end --*/
 #contact {
   padding-top: 50px;
   padding-bottom: 0px;
