@@ -201,6 +201,15 @@ header .header-content .btn-primary:after {
 #portfolio .adVend a {
   background-size: 645px !important;
 }
+#portfolio .jimBikShp h1 {
+  margin-left: 10px;
+}
+#portfolio .jimBikShp p {
+  margin-left: 10px;
+}
+#portfolio .jimBikShp a {
+  background-size: 645px !important;
+}
 #portfolio .panel {
   border: 0px !important;
   text-align: center;
@@ -251,6 +260,10 @@ header .header-content .btn-primary:after {
   height: 280px;
 }
 #portfolio .mcFinanDesc img {
+  width: 280px;
+  height: 280px;
+}
+#portfolio .jimBikShp img {
   width: 280px;
   height: 280px;
 }
