@@ -252,20 +252,20 @@ header .header-content .btn-primary:after {
   padding: 5px;
 }
 #portfolio .nrfDesc img {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
 }
 #portfolio .adVendDesc img {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
 }
 #portfolio .mcFinanDesc img {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
 }
 #portfolio .jimBikShp img {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
 }
 /*--- Portfolio end --*/
 #about {
