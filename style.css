@@ -7,7 +7,7 @@
 *Version     : 
 -----------------------------------------------*/
 .limeRule {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
@@ -15,13 +15,13 @@
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  border: 8px solid #9dc54b;
+  border: 8px solid #5bc201;
 }
 .portfolioImgHov {
-  border: 8px solid #0f2739;
+  border: 8px solid #00334f;
 }
 .cc_container .cc_btn {
-  background-color: #9dc54b !important;
+  background-color: #5bc201 !important;
 }
 @font-face {
   font-family: magistralc;
@@ -29,7 +29,7 @@
   font-weight: normal;
 }
 .navbar-default.affix {
-  background-color: #9dc54b !important;
+  background-color: #5bc201 !important;
 }
 nav .container-fluid {
   height: 120px;
@@ -43,7 +43,7 @@ nav a {
   font-size: 22px !important;
 }
 nav a:focus {
-  color: #0f2739;
+  color: #00334f;
 }
 nav .navbar-right {
   margin-top: 30px;
@@ -105,49 +105,49 @@ header .header-content li {
   list-style-type: none;
 }
 header .header-content hr {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
 header .header-content .btn-primary {
-  border-color: #0f2739;
+  border-color: #00334f;
   color: #ffffff;
-  background-color: #0f2739;
+  background-color: #00334f;
   text-shadow: 0px 0px !important;
   margin-top: 20px;
 }
 header .header-content .btn-primary :hover {
-  background: #9dc54b;
+  background: #5bc201;
 }
 header .header-content .btn-primary:after {
   background: #ffffff;
 }
 .bg-primary {
-  color: #9dc54b;
-  background-color: #0f2739 !important;
+  color: #5bc201;
+  background-color: #00334f !important;
 }
 .bg-primary .text-faded {
-  color: #9dc54b;
+  color: #5bc201;
 }
 #services {
   padding-top: 50px;
   padding-bottom: 50px !important;
 }
 #services hr {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
 #services h3 {
-  color: #0f2739;
+  color: #00334f;
 }
 #services h3:hover,
 #services h3:focus {
-  color: #9dc54b !important;
+  color: #5bc201 !important;
 }
 #services a:hover,
 #services a:focus {
-  color: #9dc54b !important;
+  color: #5bc201 !important;
 }
 #services .service-box img {
   height: 40%;
@@ -165,23 +165,23 @@ header .header-content .btn-primary:after {
 .client_portfoliio {
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #0f2739;
+  background-color: #00334f;
 }
 .client_portfoliio .section-heading {
   color: #ffffff;
   padding-top: 30px;
 }
 .client_portfoliio hr {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
 .client_portfoliio .btn-primary {
-  background-color: #9dc54b;
+  background-color: #5bc201;
   height: 35px !important;
 }
 .client_portfoliio btn:hover {
-  background-color: #9dc54b;
+  background-color: #5bc201;
 }
 #portfolio {
   padding-bottom: 30px;
@@ -213,19 +213,19 @@ header .header-content .btn-primary:after {
 #portfolio .panel {
   border: 0px !important;
   text-align: center;
-  background-color: #0f2739;
+  background-color: #00334f;
   color: #ffffff;
 }
 #portfolio .panel-heading {
   display: inline-block;
   text-align: center;
-  background-color: #0f2739;
+  background-color: #00334f;
 }
 #portfolio .panel-heading img {
   border-radius: 50%;
   height: 250px;
   width: 250px;
-  border: 8px solid #9dc54b;
+  border: 8px solid #5bc201;
 }
 #portfolio .imgTilt img {
   transition: all 0.5s ease;
@@ -247,7 +247,7 @@ header .header-content .btn-primary:after {
   margin-top: -50px;
   margin-right: 15px;
   color: #ffffff;
-  background-color: #9dc54b;
+  background-color: #5bc201;
   border-radius: 50%;
   padding: 5px;
 }
@@ -272,26 +272,26 @@ header .header-content .btn-primary:after {
   padding-top: 50px;
   padding-bottom: 50px !important;
   background-color: #ffffff !important;
-  color: #0f2739;
+  color: #00334f;
 }
 #about .conDevAllNeeds {
-  color: #0f2739;
+  color: #00334f;
 }
 #about .conDevAllNeeds hr {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
 #about .conDevAllNeeds .btn {
   font-size: 18px;
   font-weight: 700;
-  background: #0f2739;
+  background: #00334f;
   color: #ffffff;
 }
 /*--- Packages --*/
 .packages {
   color: #ffffff;
-  background-color: #0f2739 !important;
+  background-color: #00334f !important;
   padding-top: 50px;
 }
 .packages #webDevPack,
@@ -304,7 +304,7 @@ header .header-content .btn-primary:after {
   margin-top: 10px;
 }
 .packages hr {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
@@ -313,7 +313,7 @@ header .header-content .btn-primary:after {
 }
 .packages .collapse_panel_green {
   color: #ffffff;
-  background-color: #9dc54b !important;
+  background-color: #5bc201 !important;
   font-weight: 600;
   border-radius: 10px;
   padding: 10px;
@@ -335,7 +335,7 @@ header .header-content .btn-primary:after {
   background-color: transparent;
 }
 .packages i {
-  color: #9dc54b;
+  color: #5bc201;
   font-size: 16px;
   font-weight: 700;
 }
@@ -348,7 +348,7 @@ header .header-content .btn-primary:after {
   padding-bottom: 0px;
 }
 #contact hr {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
@@ -357,7 +357,7 @@ header .header-content .btn-primary:after {
   padding-bottom: 20px !important;
 }
 #socialMedia hr {
-  border-color: #9dc54b !important;
+  border-color: #5bc201 !important;
   border-width: 4px;
   max-width: 150px !important;
 }
@@ -365,10 +365,10 @@ header .header-content .btn-primary:after {
   max-height: 350px !important;
 }
 #socialMedia .fb-page iframe {
-  border: 15px solid #0f2739;
+  border: 15px solid #00334f;
   border-radius: 5px;
   width: 100% !important;
-  background-color: #0f2739;
+  background-color: #00334f;
 }
 #socialMedia .fb-page ._2p3a {
   width: 100% !important;
@@ -386,34 +386,34 @@ header .header-content .btn-primary:after {
 /*-------------------- Footer ------------------------*/
 footer .footerTxtBottom {
   color: #25618d;
-  background-color: #0f2739 !important;
+  background-color: #00334f !important;
   padding-top: 10px;
 }
 footer .designBy {
-  background-color: #0f2739 !important;
+  background-color: #00334f !important;
   width: 100%;
   text-align: right;
 }
 footer .addCtcFoot {
-  background-color: #0f2739 !important;
+  background-color: #00334f !important;
   color: #ffffff !important;
   padding-top: 15px !important;
   font-size: 14px !important;
   width: 100% !important;
 }
 footer .addCtcFoot a {
-  color: #9dc54b !important;
+  color: #5bc201 !important;
 }
 footer .addCtcFoot a:hover,
 footer .addCtcFoot a:focus {
-  color: #9dc54b !important;
+  color: #5bc201 !important;
 }
 footer .footerCompName h5 {
   color: #ffffff;
   font-size: 24px;
 }
 footer .social-footer {
-  background-color: #0f2739;
+  background-color: #00334f;
   padding-bottom: 5px;
   padding-top: 10px;
 }
@@ -421,7 +421,7 @@ footer .social-footer .social {
   float: right;
 }
 footer .footer-widget-area {
-  background-color: #9dc54b;
+  background-color: #5bc201;
 }
 footer .footerAdd {
   color: #ffffff;
@@ -442,7 +442,7 @@ footer ul.social-network li {
   margin: 0 5px;
 }
 footer .social-network a {
-  background-color: #9dc54b;
+  background-color: #5bc201;
 }
 footer .social-network a.icoRss:hover {
   background-color: #F56505;
