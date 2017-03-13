@@ -3,7 +3,7 @@
    <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "ie.ConDev.WebApp"
-        version     = "1.0.1" >
+        version     = "1.0.2" >
 
     <name>ConDev</name>
 
@@ -11,8 +11,8 @@
         ConDev | Web Development and Design
     </description>
 
-    <author href="#" email="stephen.connor@webelevate.ie">
-        Stephen Connor
+    <author href="http://ConDev.ie" email="steconnor@gmail.com">
+        ConDev | Stephen Connor
     </author>
 	
 	<preference name="permissions"                value="none"/>
@@ -51,9 +51,9 @@
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 -->
+    <gap:plugin name="org.apache.cordova.splashscreen" />
         
     <icon src="img/logo_v1.01_noText_round_1_128x128.png" />
     <icon src="img/logo_v1.01_noText_round_1_128x128.png"   gap:platform="android"    gap:density="mdpi" />
