@@ -52,8 +52,8 @@
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.vibration" />
--->
     <gap:plugin name="org.apache.cordova.splashscreen" />
+-->
         
     <icon src="img/logo_v1.01_noText_round_1_128x128.png" />
     <icon src="img/logo_v1.01_noText_round_1_128x128.png"   gap:platform="android"    gap:density="mdpi" />
