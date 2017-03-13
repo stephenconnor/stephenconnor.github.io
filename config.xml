@@ -58,6 +58,10 @@
     <icon src="img/logo_v1.01_noText_round_1_128x128.png" />
     <icon src="img/logo_v1.01_noText_round_1_128x128.png"   gap:platform="android"    gap:density="mdpi" />
 	
+    <gap:splash src="img/logo_v1.02_landscape_magistralC_1_200x102.png"       gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="img/logo_v1.02_landscape_magistralC_1_200x102.png"       gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="img/logo_v1.02_landscape_magistralC_1_200x102.png"       gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="img/logo_v1.02_landscape_magistralC_1_200x102.png"      gap:platform="android" gap:qualifier="port-xhdpi" />   
 	 <access origin="*" />
 
 </widget>
